@@ -1,2 +1,46 @@
+table{
+            border-collapse: collapse;
+            width: 100%;
+        }
 
-/* Your CSS Code here. */
+        .outer-table{
+            height: 400px;
+        }
+
+        .outer-table td{
+            border: 2px solid #333;
+            width: 50%;
+            vertical-align: top;
+            padding: 10px;
+        }
+
+        .nested{
+            width: 100%;
+        }
+
+        .nested th,
+        .nested td{
+            border: 2px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .title{
+            background: #eee;
+            font-weight: bold;
+        }
+
+        .black{
+            background: black;
+            color: white;
+            font-weight: bold;
+        }
+
+        ul{
+            margin: 10px 40px;
+        }
+
+        a{
+            color: purple;
+            text-decoration: underline;
+        }
